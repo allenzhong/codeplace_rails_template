@@ -1,4 +1,4 @@
-<tr>
+<tr id="post_<%= post.id%>">
   <td><%= post.content %></td>
   <td><%= link_to 'Show', post , class: "btn btn-info" %></td>
   <td><%= link_to 'Edit', edit_post_path(post), remote:true, class: "btn btn-primary"%></td>
