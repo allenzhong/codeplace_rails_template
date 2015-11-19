@@ -1,0 +1,4 @@
+$("#post_<%= @post.id%>").replaceWith("<%= j render(@post)%>")
+$("#buttons").show()
+$("#form").hide()
+$("#form").html("")
